@@ -1,0 +1,40 @@
+.ingredient-form {
+  width: 30rem;
+  margin: 2rem auto;
+  max-width: 100%;
+ /* border:2px solid #008000 ;  */
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+.form-control input {
+  font: inherit;
+  padding: 0.1rem 0.25rem;
+  border: none;
+  /* border-bottom: 2px solid #ccc; */
+  border-bottom: 2px solid #008000;   
+  /* box-shadow: 0 2px 8px  #008000; */
+  margin-bottom: 1rem;
+  caret-color: green;
+}
+
+.form-control input:focus {
+  outline: none;
+  /* border-bottom-color: #ff2058; */
+  box-shadow: 0 5px 5px -5px #008000;    
+}
+
+.ingredient-form__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ingredient-form__actions button{
+  background: none;
+  background-color: #008000;
+  border:none;
+}
